@@ -14,6 +14,7 @@
 body{
     font-family: sans-serif;
     background-color:rgba(247, 237, 225, 0.71);
+    max-width: 100%;
 }
 
 .menu__bar{
@@ -729,12 +730,14 @@ body{
     line-height: 32px;
     padding: 0px 320px;
     margin-bottom: 30px;
+    display: flex;
+    flex-direction: row;
 }
 
 #conclusion button{
     background-color: var(--color-primary);
     padding: 12.5px 25px;
-    border-radius: 5px;
+    border-radius: 2.5px;
     font-style: normal;
     font-size: 20px;
     color: white;
@@ -742,6 +745,8 @@ body{
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     border: none;
     margin-bottom: 35px;
+    width: 13pc;
+    height: 4pc;
 }
 
 #conclusion button:hover{
@@ -773,17 +778,19 @@ footer{
 
 
 #footer_description img{
-    width: 130px;
+    width: 200px;
     height: 50px;
     position: relative;
-    top: -40px;   
+    top: -20px;   
 }
 #footer_description h4{
-    font-size: 18px;
+    font-size: 20px;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     line-height: 35px;
-    font-weight: 50;
+    font-weight: 100;
+    word-spacing: normal;
+    letter-spacing: normal;
 }
 
 #resources{
@@ -795,8 +802,8 @@ footer{
 }
 
 #resources h2{
-    font-size: 35px;
-    font-weight: 700;
+    font-size: 30px;
+    font-weight: 600;
     position: relative;
     top: -20px;
 }
@@ -807,6 +814,11 @@ footer{
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     line-height: 40px;
+    font-weight: 100;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    flex-grow: inherit;
 }
 #resources a:hover{
     color: gold;
@@ -822,10 +834,13 @@ footer{
 }
 
 #techskool h2{
-    font-size: 35px;
-    font-weight: 700;
+    font-size: 30px;
+    font-weight: 600;
     position: relative;
     top: -20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
 }
 
 #techskool a{
@@ -833,7 +848,8 @@ footer{
     font-size: 20px;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
-    line-height: 40px;
+    line-height: 30px;
+    font-weight: 100;
 }
 #techskool a:hover{
     color: gold;
@@ -848,7 +864,7 @@ footer{
     display: block;
 }
 #contact_us h2{
-    font-size: 35px;
+    font-size: 25px;
     font-weight: 700;
     position: relative;
     top: -20px;
@@ -864,11 +880,11 @@ footer{
 
 .ending{
     text-align: center;
-    margin: 50px;
+    margin: 30px;
 }
 
 .ending h2{
-    font-size: 23px;
+    font-size: 20px;
     font-weight: 200;
 }
 
